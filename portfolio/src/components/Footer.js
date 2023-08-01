@@ -12,26 +12,38 @@ const Footer = () => {
         <div className="footer-container"> 
             <p>© Patrick Bonini 2023</p>
             <div className="socials">
-                <FaEnvelope
-                    size={30}
-                    style={{color: "white",
-                    marginRight: "1rem" }}
-                    />
-                <FaLinkedin
-                    size={30}
-                    style={{color: "white",
-                    marginRight: "1rem" }}
-                    />
-                <FaGithub
-                    size={30}
-                    style={{color: "white",
-                    marginRight: "1rem" }}
-                    />
-                <FaUser
-                    size={30}
-                    style={{color: "white",
-                    marginRight: "1rem" }}
-                    />
+                <a href="mailto:patrick.bonini13@gmail.com" target="_blank">
+                    <button className="btn-small"><FaEnvelope
+                        size={30}
+                        style={{color: "white",
+                        marginRight: "1rem" }}
+                        />
+                    </button>
+                </a>
+                <a href="https://www.linkedin.com/in/patrick-bonini" target="_blank">
+                    <button className="btn-small"><FaLinkedin
+                        size={30}
+                        style={{color: "white",
+                        marginRight: "1rem" }}
+                        />
+                    </button>
+                </a>
+                <a href="https://github.com/Patrick-Bonini" target="_blank">
+                    <button className="btn-small"><FaGithub
+                        size={30}
+                        style={{color: "white",
+                        marginRight: "1rem" }}
+                        />
+                    </button>
+                </a>
+                <a href="https://drive.google.com/file/d/1Yovj5LFOngRQHyN0Wg5khlrGkwPnaq4T/view?usp=sharing" target="_blank">
+                    <button className="btn-small"><FaUser
+                        size={30}
+                        style={{color: "white",
+                        marginRight: "1rem" }}
+                        />
+                    </button>
+                </a>
             </div>
         </div>
     </div>

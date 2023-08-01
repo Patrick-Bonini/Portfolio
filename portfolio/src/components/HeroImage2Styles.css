@@ -1,0 +1,46 @@
+.hero2-img {
+    width: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    height: 100vh;
+    position: relative;
+}
+
+.heading {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero2-img::before {
+    content: "";
+    background: url("https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
+    background-position: center top;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.hero2-img h1 {
+    font-size: 3.3rem;
+    padding: 0.6rem 0 1.5rem;
+    text-align: center;
+}
+
+.hero2-img p {
+    font-size: 1.4rem;
+    font-weight: 200;
+    text-align: center;
+}
+
+@media screen and (max-width: 1040) {
+    .hero2-img h1 {
+        font-size: 2rem;
+    }
+}

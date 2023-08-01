@@ -39,6 +39,13 @@ ul {
   color: white;
 }
 
+.btn-small {
+  background: transparent;
+  border: 1px solid white;
+  border: none;
+  cursor: pointer;
+}
+
 .btn:hover {
   background: rgba(255, 255, 255, 0.5);
   color: white;
