@@ -24,7 +24,7 @@
 }
 
 .right .img-container{
-    display: grid;
+    display: center;
     grid-template-columns: repeat(12, 1fr);
     position: relative;
     align-items: center;
@@ -32,7 +32,7 @@
 }
 
 .right .img {
-    max-width: 90%;
-    border: 1px solid #333;
-    grid-column: 1 / span 8;
+    max-width: 300px;
+    padding-right: 1rem;
+    text-align: center;
 }
