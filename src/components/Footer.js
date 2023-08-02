@@ -36,7 +36,7 @@ const Footer = () => {
                         />
                     </button>
                 </a>
-                <a href="https://drive.google.com/file/d/1VRYDjujI1cw3Fe-TGvDWPBQK0lpGXo0U/view?usp=sharing" target="_blank">
+                <a href="https://drive.google.com/file/d/1imiD71FgpdXs7YNN1ERzxIT1_-EXJTbK/view?usp=sharing" target="_blank">
                     <button className="btn-small"><FaUser
                         size={30}
                         style={{color: "white",
