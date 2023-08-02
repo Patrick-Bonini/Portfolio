@@ -6,7 +6,7 @@ const ProjectCardData = [
     {
         imgsrc: project1,
         title: "AutoSchedule",
-        langs: "Python, Google Cloud, Google Calendar API, Tesseract OCR",
+        langs: "Python, Google Cloud, Google Calendar API, Tesseract OCR, OAuth",
         desc: "Created an authorization system that lets you log in to your google account. Coded a python script that automatically uploaded a semester worth of classes to your google calendar when given your classes as a text file. Integrated an image to text API but decided to remove it due to issues with it’s accuracy",
         source: "https://github.com/Patrick-Bonini/Calendar-Scripting-Project"
     },
