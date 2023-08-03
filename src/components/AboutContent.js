@@ -8,7 +8,7 @@ const AboutContent = () => {
     <div className="about">
         <div className="left">
             <h1>Who Am I?</h1>
-            <p>Motivated second year software engineering student @ uOttawa seeking winter 2024 internship opportunities | Python, Java, JavaScript, ReactJS, Flask</p>
+            <p>Motivated second year software engineering student with a focus in AI/ML @ uOttawa seeking winter 2024 internship opportunities | Python, Java, JavaScript, ReactJS, Flask</p>
             <NavLink to="https://drive.google.com/file/d/1imiD71FgpdXs7YNN1ERzxIT1_-EXJTbK/view?usp=sharing" target="blank"><button className="btn">Resume</button></NavLink>
         </div>
         <div className="right">
